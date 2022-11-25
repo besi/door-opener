@@ -629,7 +629,7 @@
   (symbol (lib_id "Mechanical:MountingHole") (at 150.622 108.204 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 9d8c40ac-1c2f-4145-8b2e-cf80bdb34b2b)
-    (property "Reference" "H?" (id 0) (at 153.924 106.9339 0)
+    (property "Reference" "H1" (id 0) (at 153.924 106.9339 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole" (id 1) (at 153.924 109.4739 0)
@@ -802,11 +802,11 @@
     (path "/7a25863c-63ae-499d-8f46-da0ee445b24c"
       (reference "D1") (unit 1) (value "WS2812B") (footprint "LED_THT:LED_D5.0mm-4_RGB_Wide_Pins")
     )
+    (path "/9d8c40ac-1c2f-4145-8b2e-cf80bdb34b2b"
+      (reference "H1") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3mm")
+    )
     (path "/a6152703-ca9a-41de-b3b5-08491c9de5bb"
       (reference "H2") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3mm")
-    )
-    (path "/9d8c40ac-1c2f-4145-8b2e-cf80bdb34b2b"
-      (reference "H?") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3mm")
     )
     (path "/a548b600-36d7-4fb4-bec6-833a61cb98e0"
       (reference "SW1") (unit 1) (value "POWER") (footprint "Button_Switch_SMD:SW_SPDT_CK-JS102011SAQN")
