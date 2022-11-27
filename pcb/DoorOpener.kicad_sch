@@ -698,23 +698,6 @@
     (pin "8" (uuid 371edbf3-7a87-4cf5-b5a4-03fa43a3ce71))
   )
 
-  (symbol (lib_id "Mechanical:MountingHole") (at 169.418 108.458 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid a6152703-ca9a-41de-b3b5-08491c9de5bb)
-    (property "Reference" "H2" (id 0) (at 172.72 107.1879 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (id 1) (at 172.72 109.7279 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_3mm" (id 2) (at 169.418 108.458 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 169.418 108.458 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-
   (symbol (lib_id "power:+3V3") (at 172.72 68.072 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid caff94d7-e6cb-4556-bf12-5df5af4fb32d)
@@ -804,9 +787,6 @@
     )
     (path "/9d8c40ac-1c2f-4145-8b2e-cf80bdb34b2b"
       (reference "H1") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3mm")
-    )
-    (path "/a6152703-ca9a-41de-b3b5-08491c9de5bb"
-      (reference "H2") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3mm")
     )
     (path "/a548b600-36d7-4fb4-bec6-833a61cb98e0"
       (reference "SW1") (unit 1) (value "POWER") (footprint "Button_Switch_SMD:SW_SPDT_CK-JS102011SAQN")

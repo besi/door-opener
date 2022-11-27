@@ -1,6 +1,3 @@
-[submodule "pcb/lib/tp4056"]
-	path = pcb/lib/tp4056
-	url = https://github.com/besi/TP4056
 [submodule "pcb/lib/esp8266"]
 	path = pcb/lib/esp8266
 	url = https://github.com/besi/kicad-esp8266
