@@ -33,7 +33,7 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.016,
+          "drill": 1.0,
           "height": 2.0,
           "width": 3.0
         },
@@ -372,7 +372,12 @@
     "meta": {
       "version": 2
     },
-    "net_colors": null
+    "net_colors": {
+      "+3V3": "rgb(164, 2, 12)",
+      "/RX": "rgb(174, 178, 255)",
+      "/TX": "rgb(255, 139, 139)",
+      "GND": "rgb(74, 144, 7)"
+    }
   },
   "pcbnew": {
     "last_paths": {
@@ -380,7 +385,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "DoorOpenerRemote.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
