@@ -1,3 +1,9 @@
 [submodule "pcb/lib/esp8266"]
 	path = pcb/lib/esp8266
 	url = https://github.com/besi/kicad-esp8266
+[submodule "pcb/lib/relais_module"]
+	path = pcb/lib/relais_module
+	url = https://github.com/besi/kicad-relais-module
+[submodule "pcb/lib/dcdc"]
+	path = pcb/lib/dcdc
+	url = https://github.com/besi/kicad-dcdc
