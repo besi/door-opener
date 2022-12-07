@@ -938,7 +938,7 @@
       (symbol "relais_module_0_1"
         (rectangle (start -11.43 6.35) (end 10.16 -6.35)
           (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
+          (fill (type background))
         )
         (rectangle (start -6.35 3.81) (end 3.81 -3.81)
           (stroke (width 0) (type default) (color 0 0 0 0))
@@ -1577,7 +1577,7 @@
     (uuid 7b60c054-427f-4876-9763-2647089898cd)
     (property "Reference" "J3" (id 0) (at 157.48 55.88 0))
     (property "Value" "14V" (id 1) (at 157.48 58.42 0))
-    (property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal" (id 2) (at 157.48 64.77 0)
+    (property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal" (id 2) (at 157.48 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 157.48 64.77 0)
@@ -1971,7 +1971,7 @@
       (reference "J2") (unit 1) (value "Serial") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Horizontal")
     )
     (path "/7b60c054-427f-4876-9763-2647089898cd"
-      (reference "J3") (unit 1) (value "14V") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal")
+      (reference "J3") (unit 1) (value "14V") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal")
     )
     (path "/37204591-45c3-440b-a507-d0392365311c"
       (reference "JP1") (unit 1) (value "Bridge") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal")
